@@ -9,7 +9,7 @@
 
 **-------------------------------------------------------------------------------------------------------------------------------------**
 
-    **PARTICIPANTS::KOUSHIK MUKKA, HIMANGSHU DEKA**
+    **PARTICIPANTS::HIMANGSHU DEKA, JANAPATI SAI AJAY**
     **TECHNOLOGIES USED:SELENIUM<<FOR WEB SCRAPPING>>;TENSORFLOW<<FOR BUILDING THE MODEL>>;MATPLOTLIB<<TO PLOT THE MODEL>>,DEPLOYED<<USING STREAMLIT>>**
 
     **## Steps:
@@ -21,7 +21,7 @@
 **-------------------------------------------------------------------------------------------------------------------------------------**
 
   **PART-1::**
-  **WEB SCRAPING**(DONE BY HIMANGSHU DEKA)
+  **WEB SCRAPING**(DONE BY JANAPATI SAI AJAY)
   1. FIRST CREATED A CHROME DRIVER INSTANCE 
 <img width="1022" alt="Screenshot 0005-07-29 at 14 28 49" src="https://github.com/KewangZhili/Image_Clasiifier/assets/111041497/add17153-79b7-4ce2-afef-d4a13d7e8f97">
   2. THEN WROTE A FUNCTION THAT TAKES IN URL AND NO. OF IMAGES TO BE DOWNLOADED, AND DOWNLOADS THE IMAGES FROM THE SAID URL INTO A FILE CREATED USING THE FUNCTIONS AS DEPICTED BELOW::
@@ -36,7 +36,7 @@
 **-------------------------------------------------------------------------------------------------------------------------------------**
 
   **PART-2**
-  **BUILDING THE ACTUAL MODEL**(DONE BY  HIMANGSHU DEKA;KOUSHIK MUKKA)
+  **BUILDING THE ACTUAL MODEL**(DONE BY  Janapati Sai Ajay;Himangshu Deka)
 
   1.CREATED THE TRAIN AND TEST DATA SET AS FOLLOWS;
   
@@ -55,7 +55,7 @@
 4.OUR MODEL::
 <img width="674" alt="Screenshot 0005-07-29 at 14 50 02" src="https://github.com/KewangZhili/Image_Clasiifier/assets/111041497/6b7aeb04-68cb-44a7-93cb-39e11dbb0119">
 
-5.THEN WE FIT OUR DATA as follows(we tried using Adam optimizer as well but accuracy got better for SGD ,"So Koushik Mukka decided to use SGD optimizer here
+5.THEN WE FIT OUR DATA as follows(we tried using Adam optimizer as well but accuracy got better for SGD ,"So Himangshu Deka decided to use SGD optimizer here
 
 <img width="982" alt="Screenshot 0005-07-29 at 14 51 23" src="https://github.com/KewangZhili/Image_Clasiifier/assets/111041497/e2970c49-52f9-4668-92b9-f3c573097f00">
 
@@ -66,7 +66,7 @@
 7.Then saved our model to be deployed using StreamLit as my_model2.hdf5
 
 **-------------------------------------------------------------------------------------------------------------------------------------**
-**PART-3:DEPLOYMENT(DONE BY KOUSHIK MUKKA)**
+**PART-3:DEPLOYMENT(DONE BY Himangshu Deka)**
 
 1.To deploy the model built,It was saved to my_model2.hdf5 file.Here I used streamlit to host the deeplearning model on local host,For which streamlit is installed.
 
